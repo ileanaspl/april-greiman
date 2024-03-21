@@ -30,7 +30,8 @@ main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    width: 30%;
+    width: 50%;
+    min-width: 400px;
     height: 100%;
     box-shadow: 1rem 1rem var(--dark-color);
     border: 0.15rem solid var(--dark-color);
@@ -70,12 +71,11 @@ h2 {
     padding: 0.35rem 0.75rem;
     font-family: var(--primary-font);
     font-size: 1.35rem;
-    color: var(--light-color);
+    color: var(--dark-color);
 }
 
-.card-button:hover {
-    background-color: var(--background-color);
-}
+.card-button:hover { 
+    background-color: var(--background-color); }
 
 .button-container {
     display: flex;
